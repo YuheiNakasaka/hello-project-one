@@ -7,7 +7,7 @@
         </div>
         <div class="members">
           <Member
-            v-for="(member, i) in members"
+            v-for="(member, i) in allMembers"
             :key="i"
             :item="member"
           ></Member>
@@ -28,30 +28,14 @@ import Member from '@/components/Member.vue'
 export default {
   components: { Member },
   data: function() {
-    return {
-      members: [
-        {
-          name: '譜久村聖',
-          yomi: 'ふくむらみずき',
-          color: '#e5007f',
-          profile:
-            'http://www.helloproject.com/morningmusume/profile/mizuki_fukumura/',
-          sns: [
-            {
-              name: 'Instagram',
-              class: 'instagram',
-              link: 'https://www.instagram.com/mizuki_fukumura.official/'
-            },
-            {
-              name: 'Ameba',
-              class: 'ameba',
-              link: 'https://ameblo.jp/morningmusume-9ki/theme-10059757620.html'
-            }
-          ]
-        }
-      ]
+    return {}
+  },
+  computed: {
+    allMembers() {
+      return this.$store.state.members.items
     }
-  }
+  },
+  mounted() {}
 }
 </script>
 
@@ -71,6 +55,7 @@ export default {
         }
       }
       .members {
+        width: 100%;
       }
     }
   }
