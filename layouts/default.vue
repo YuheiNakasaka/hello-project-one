@@ -27,4 +27,17 @@ a {
   display: block;
   text-decoration: none;
 }
+
+h1 {
+  text-shadow: black 2px 0px 0px, black -2px 0px 0px, black 0px -2px 0px, black 0px 2px 0px, black 2px 2px 0px,
+    black -2px 2px 0px, black 2px -2px 0px, black -2px -2px 0px, black 1px 2px 0px, black -1px 2px 0px,
+    black 1px -2px 0px, black -1px -2px 0px, black 2px 1px 0px, black -2px 1px 0px, black 2px -1px 0px,
+    black -2px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+}
+a {
+  text-shadow: black 1px 0px 0px, black -1px 0px 0px, black 0px -1px 0px, black 0px 1px 0px, black 1px 1px 0px,
+    black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px, black 1px 1px 0px, black -1px 1px 0px,
+    black 1px -1px 0px, black -1px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px,
+    black -1px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+}
 </style>

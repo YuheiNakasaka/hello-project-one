@@ -1,6 +1,6 @@
 <template>
   <div class="member">
-    <div class="member-name" :style="'background-color: ' + item.color">
+    <div class="member-name" :style="'background-color: ' + item.color + '; width: ' + memberNameWidth + 'px;'">
       <a :href="item.profile" target="_blank">
         <span>{{ item.name }}</span>
       </a>
@@ -23,7 +23,15 @@ export default {
       }
     }
   },
-  mounted() {}
+  data() {
+    return {
+      memberNameWidth: 0
+    }
+  },
+  mounted() {
+    const windowWidth = window.innerWidth || document.documentElement.clientWidth || 0
+    this.memberNameWidth = windowWidth * 0.67
+  }
 }
 </script>
 
@@ -34,7 +42,6 @@ export default {
   flex-direction: row;
   align-items: stretch;
   .member-name {
-    flex-grow: 4;
     a {
       height: 68px;
       width: 100%;
