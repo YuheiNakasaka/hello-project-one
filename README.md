@@ -1,4 +1,4 @@
-# hello-project-neo
+# hello-project-one
 
 ## Build Setup
 

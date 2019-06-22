@@ -1,21 +1,46 @@
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/hello-project-one/'
+        }
+      }
+    : {}
+
 export default {
   mode: 'spa',
   /*
    ** Headers of the page
    */
   head: {
-    title: 'ハロプロネオ' || '',
+    title: 'ハロプロワン' || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
+      },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'ハロプロワン' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@razokulover' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:title', name: 'og:title', content: 'ハロプロワン' },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
+      },
+      { hid: 'og:image', name: 'og:image', content: '' },
+      { hid: 'og:url', name: 'og:url', content: '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: `/apple-touch-icon.png` },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `/favicon-32x32.png` },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `/favicon-16x16.png` },
+      { rel: 'mask-icon', href: `/safari-pinned-tab.svg`, color: '#000000' },
+      { rel: 'shortcut icon', href: `/favicon.ico` },
       {
         rel: 'stylesheet',
         href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
@@ -56,5 +81,6 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  }
+  },
+  ...routerBase
 }
