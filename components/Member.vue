@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="member-sns">
-      <a v-for="(sns, i) in item.sns" :key="i" :class="sns.class" :href="sns.link">{{ sns.name }}</a>
+      <a v-for="(sns, i) in item.sns" :key="i" :class="sns.class" :href="sns.link" target="_blank">{{ sns.name }}</a>
     </div>
   </div>
 </template>
