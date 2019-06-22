@@ -1,16 +1,12 @@
 <template>
   <div class="member">
     <div class="member-name" :style="'background-color: ' + item.color">
-      <a :href="item.profile" target="_blank">{{ item.name }}</a>
+      <a :href="item.profile" target="_blank">
+        <span>{{ item.name }}</span>
+      </a>
     </div>
     <div class="member-sns">
-      <a
-        v-for="(sns, i) in item.sns"
-        :key="i"
-        :class="sns.class"
-        :href="sns.link"
-        >{{ sns.name }}</a
-      >
+      <a v-for="(sns, i) in item.sns" :key="i" :class="sns.class" :href="sns.link">{{ sns.name }}</a>
     </div>
   </div>
 </template>
@@ -33,15 +29,16 @@ export default {
 
 <style lang="scss" scoped>
 .member {
-  height: 50px;
+  height: 68px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   .member-name {
     flex-grow: 4;
     a {
+      height: 68px;
       width: 100%;
-      padding: 11px 0;
+      padding: 15px 0;
       text-align: center;
       font-size: 18pt;
       color: #fff;
@@ -54,8 +51,9 @@ export default {
     flex-direction: column;
     text-align: center;
     a {
+      height: 34px;
       font-size: 12pt;
-      padding: 5.5px 0;
+      padding: 7px 0;
       color: #fff;
       font-weight: bold;
       &.instagram {
