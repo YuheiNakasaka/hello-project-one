@@ -8,7 +8,10 @@
 <script>
 import NavigationTabBar from '@/components/NavigationTabBar.vue'
 export default {
-  components: { NavigationTabBar }
+  components: { NavigationTabBar },
+  created() {
+    this.$router.push(`/`)
+  }
 }
 </script>
 

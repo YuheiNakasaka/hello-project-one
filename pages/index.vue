@@ -172,6 +172,7 @@ export default {
         const groupIds = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
         for (let i = 0; i < groupIds.length; i++) {
           const elm = document.querySelector(`.group.${groupIds[i]} .team`)
+          if (!elm) return
           const groupBar = elm.getBoundingClientRect()
           if (groupBar) {
             let membersHeight = -83
