@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
+          <Member v-for="(member, i) in angerme" :key="i" :item="member"></Member>
         </div>
       </div>
       <div class="group">
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
+          <Member v-for="(member, i) in juicejuice" :key="i" :item="member"></Member>
         </div>
       </div>
       <div class="group">
@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
+          <Member v-for="(member, i) in kobusiFactory" :key="i" :item="member"></Member>
         </div>
       </div>
       <div class="group">
@@ -144,7 +144,12 @@ export default {
     return {}
   },
   computed: {
-    ...mapGetters({ morningMusume: 'members/morningMusume' })
+    ...mapGetters({
+      morningMusume: 'members/morningMusume',
+      angerme: 'members/angerme',
+      juicejuice: 'members/juicejuice',
+      kobusiFactory: 'members/kobusiFactory'
+    })
   },
   mounted() {}
 }
