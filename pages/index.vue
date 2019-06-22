@@ -49,6 +49,23 @@
       <div class="group">
         <div class="team">
           <div class="group-name">
+            <h1>カントリーガールズ</h1>
+          </div>
+          <div class="group-sns">
+            <a href="https://twitter.com/countrygirls_uf" target="_blank" class="twitter">Twitter</a>
+            <a href="https://www.instagram.com/countrygirls_official/" target="_blank" class="instagram">Instagram</a>
+            <a href="https://www.youtube.com/channel/UCoxHJjctNXq1UgGk1vx3LUw" target="_blank" class="youtube"
+              >Youtube</a
+            >
+          </div>
+        </div>
+        <div class="members">
+          <Member v-for="(member, i) in countryGirls" :key="i" :item="member"></Member>
+        </div>
+      </div>
+      <div class="group">
+        <div class="team">
+          <div class="group-name">
             <h1>こぶしファクトリー</h1>
           </div>
           <div class="group-sns">
@@ -77,24 +94,27 @@
           </div>
         </div>
         <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
+          <Member v-for="(member, i) in tsubakiFactory" :key="i" :item="member"></Member>
         </div>
       </div>
       <div class="group">
         <div class="team">
           <div class="group-name">
-            <h1>カントリーガールズ</h1>
-          </div>
-          <div class="group-sns">
-            <a href="https://twitter.com/countrygirls_uf" target="_blank" class="twitter">Twitter</a>
-            <a href="https://www.instagram.com/countrygirls_official/" target="_blank" class="instagram">Instagram</a>
-            <a href="https://www.youtube.com/channel/UCoxHJjctNXq1UgGk1vx3LUw" target="_blank" class="youtube"
-              >Youtube</a
-            >
+            <h1>CHIKA#TETSU</h1>
           </div>
         </div>
         <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
+          <Member v-for="(member, i) in chicatetsu" :key="i" :item="member"></Member>
+        </div>
+      </div>
+      <div class="group">
+        <div class="team">
+          <div class="group-name">
+            <h1>雨ノ森川海</h1>
+          </div>
+        </div>
+        <div class="members">
+          <Member v-for="(member, i) in amenomorikawaumi" :key="i" :item="member"></Member>
         </div>
       </div>
       <div class="group">
@@ -108,27 +128,7 @@
           </div>
         </div>
         <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
-        </div>
-      </div>
-      <div class="group">
-        <div class="team">
-          <div class="group-name">
-            <h1>CHIKA#TETSU</h1>
-          </div>
-        </div>
-        <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
-        </div>
-      </div>
-      <div class="group">
-        <div class="team">
-          <div class="group-name">
-            <h1>雨ノ森川海</h1>
-          </div>
-        </div>
-        <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
+          <Member v-for="(member, i) in beyooooonds" :key="i" :item="member"></Member>
         </div>
       </div>
     </div>
@@ -148,7 +148,12 @@ export default {
       morningMusume: 'members/morningMusume',
       angerme: 'members/angerme',
       juicejuice: 'members/juicejuice',
-      kobusiFactory: 'members/kobusiFactory'
+      kobusiFactory: 'members/kobusiFactory',
+      tsubakiFactory: 'members/tsubakiFactory',
+      countryGirls: 'members/countryGirls',
+      beyooooonds: 'members/beyooooonds',
+      chicatetsu: 'members/chicatetsu',
+      amenomorikawaumi: 'members/amenomorikawaumi'
     })
   },
   mounted() {}

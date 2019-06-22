@@ -630,6 +630,484 @@ export const state = () => ({
           link: 'javascript:void(0)'
         }
       ]
+    },
+    // つばき
+    {
+      name: '山岸理子',
+      group: 'tsubakifactory',
+      yomi: 'やまぎしりこ',
+      color: '#bdf53a',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/riko_yamagishi/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10090188545.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '小片リサ',
+      group: 'tsubakifactory',
+      yomi: 'おがたりさ',
+      color: '#fd9556',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/risa_ogata/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10090188547.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '新沼希空',
+      group: 'tsubakifactory',
+      yomi: 'にいぬまきそら',
+      color: '#90f2fb',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/kisora_niinuma/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10090188548.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '谷本安美',
+      group: 'tsubakifactory',
+      yomi: 'たにもとあみ',
+      color: '#e0adfc',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/ami_tanimoto/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10090188551.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '岸本ゆめの',
+      group: 'tsubakifactory',
+      yomi: 'きしもとゆめの',
+      color: '#fdeb3f',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/yumeno_kishimoto/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10090188555.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '浅倉樹々',
+      group: 'tsubakifactory',
+      yomi: 'あさくらきき',
+      color: '#fec1be',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/kiki_asakura/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10090188560.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '小野瑞歩',
+      group: 'tsubakifactory',
+      yomi: 'おのみずほ',
+      color: '#1bc6ae',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/mizuho_ono/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10098778223.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '小野田紗栞',
+      group: 'tsubakifactory',
+      yomi: 'おのださおり',
+      color: '#feb4f8',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/saori_onoda/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10098778228.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '秋山眞緒',
+      group: 'tsubakifactory',
+      yomi: 'あきやままお',
+      color: '#ff6361',
+      profile: 'http://www.helloproject.com/tsubakifactory/profile/mao_akiyama/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsubaki-factory/theme-10098778236.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    // カントリー
+    {
+      name: '山木梨沙',
+      group: 'countrygirls',
+      yomi: 'やまきりさ',
+      color: '#acdd4d',
+      profile: 'http://www.helloproject.com/countrygirls/profile/risa_yamaki/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/countrygirls/theme-10087903791.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '森戸知沙希',
+      group: 'countrygirls',
+      yomi: 'もりとちさき',
+      color: '#ff9900',
+      profile: 'http://www.helloproject.com/countrygirls/profile/chisaki_morito/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/countrygirls/theme-10087903805.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '小関舞',
+      group: 'countrygirls',
+      yomi: 'おぜきまい',
+      color: '#3366ff',
+      profile: 'http://www.helloproject.com/countrygirls/profile/mai_ozeki/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/countrygirls/theme-10087903830.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '船木結',
+      group: 'countrygirls',
+      yomi: 'ふなきむすぶ',
+      color: '#ffff33',
+      profile: 'http://www.helloproject.com/countrygirls/profile/musubu_funaki/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/countrygirls/theme-10094622018.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    // beyooooonds
+    {
+      name: '平井美葉',
+      group: 'beyooooonds',
+      yomi: 'ひらいみよ',
+      color: '#800080',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/miyo_hirai/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds/theme-10108019356.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '小林萌花',
+      group: 'beyooooonds',
+      yomi: 'こばやしほのか',
+      color: '#008000',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/honoka_kobayashi/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds/theme-10108019358.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '里吉うたの',
+      group: 'beyooooonds',
+      yomi: 'さとよしうたの',
+      color: '#0000CD',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/utano_satoyoshi/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds/theme-10108019359.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '一岡伶奈',
+      group: 'chicatetsu',
+      yomi: 'いちおかれいな',
+      color: '#90f2fb',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/reina_ichioka/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-chicatetsu/theme-10107497239.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '島倉りか',
+      group: 'chicatetsu',
+      yomi: 'しまくらりか',
+      color: '#dda0dd',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/rika_shimakura/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-chicatetsu/theme-10107497241.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '西田汐里',
+      group: 'chicatetsu',
+      yomi: 'にしだしおり',
+      color: '#FF69B4',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/shiori_nishida/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-chicatetsu/theme-10107497243.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '江口紗耶',
+      group: 'chicatetsu',
+      yomi: 'えぐちさや',
+      color: '#ffff33',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/saya_eguchi/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-chicatetsu/theme-10107497245.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '高瀬くるみ',
+      group: 'amenomorikawaumi',
+      yomi: 'たかせくるみ',
+      color: '#58CE91',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/kurumi_takase/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-rfro/theme-10107497232.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '前田こころ',
+      group: 'amenomorikawaumi',
+      yomi: 'まえだこころ',
+      color: '#56bed9',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/kokoro_maeda/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-rfro/theme-10107497233.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '山﨑夢羽',
+      group: 'amenomorikawaumi',
+      yomi: 'やまざきゆはね',
+      color: '#F31C3B',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/yuhane_yamazaki/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-rfro/theme-10107497235.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '岡村美波',
+      group: 'amenomorikawaumi',
+      yomi: 'おかむらみなみ',
+      color: '#ffb6c1',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/minami_okamura/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-rfro/theme-10107497237.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '清野桃々姫',
+      group: 'amenomorikawaumi',
+      yomi: 'きよのももひめ',
+      color: '#ff9900',
+      profile: 'http://www.helloproject.com/beyooooonds/profile/momohime_kiyono/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/beyooooonds-rfro/theme-10107497238.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
     }
   ]
 })
@@ -653,6 +1131,31 @@ export const getters = {
   kobusiFactory(state) {
     return state.items.filter(item => {
       return item.group === 'kobusifactory'
+    })
+  },
+  tsubakiFactory(state) {
+    return state.items.filter(item => {
+      return item.group === 'tsubakifactory'
+    })
+  },
+  countryGirls(state) {
+    return state.items.filter(item => {
+      return item.group === 'countrygirls'
+    })
+  },
+  beyooooonds(state) {
+    return state.items.filter(item => {
+      return item.group === 'beyooooonds'
+    })
+  },
+  chicatetsu(state) {
+    return state.items.filter(item => {
+      return item.group === 'chicatetsu'
+    })
+  },
+  amenomorikawaumi(state) {
+    return state.items.filter(item => {
+      return item.group === 'amenomorikawaumi'
     })
   }
 }
