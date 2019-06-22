@@ -817,9 +817,9 @@ export const state = () => ({
           link: 'https://ameblo.jp/countrygirls/theme-10087903791.html'
         },
         {
-          name: '-',
+          name: 'Instagram',
           class: 'instagram',
-          link: 'javascript:void(0)'
+          link: 'https://www.instagram.com/risa_yamaki.official/'
         }
       ]
     },

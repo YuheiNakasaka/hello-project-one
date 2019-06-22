@@ -196,7 +196,9 @@ export default {
 .container {
   .groups {
     .group {
+      z-index: 1;
       .team {
+        z-index: 10000;
         &.fixed {
           position: fixed;
           width: 100%;

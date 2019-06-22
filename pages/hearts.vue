@@ -8,7 +8,7 @@
     <div class="groups">
       <div class="group">
         <div class="members">
-          <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
+          <Member v-for="(member, i) in allHearts" :key="`${i}_${member.color}`" :item="member"></Member>
         </div>
       </div>
     </div>
@@ -25,7 +25,7 @@ export default {
   },
   computed: {
     ...mapGetters({
-      morningMusume: 'members/morningMusume'
+      allHearts: 'hearts/allHearts'
     })
   },
   mounted() {}
