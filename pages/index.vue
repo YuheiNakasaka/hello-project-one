@@ -184,13 +184,6 @@ export default {
               if (groupIds[i] === 'a') return
               document.querySelector(`.group.${groupIds[i]} .team`).classList.remove('fixed')
             }
-
-            // const groupHeight = document.querySelector(`.group.${groupIds[i]}`).clientHeight - 49
-            // if (groupBar.top < 0 && groupBar.top > -1 * groupHeight) {
-            //   elm.classList.add('fixed')
-            // } else {
-            //   elm.classList.remove('fixed')
-            // }
           }
         }
       }, 0)
