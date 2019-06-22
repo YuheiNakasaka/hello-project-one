@@ -39,7 +39,11 @@ export default {
   mounted() {
     const windowWidth = window.innerWidth || document.documentElement.clientWidth || 0
     this.memberNameWidth = windowWidth * 0.67
-    this.isHearted()
+
+    // vue-persistedstateのheart復帰のタイミングがよくわからん
+    setTimeout(() => {
+      this.isHearted()
+    }, 60)
   },
   methods: {
     ...mapActions({
