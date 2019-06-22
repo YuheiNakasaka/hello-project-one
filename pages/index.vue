@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="groups">
-      <div class="group">
-        <div class="team">
+      <div class="group a">
+        <div class="team fixed">
           <div class="group-name">
             <h1>モーニング娘。</h1>
           </div>
@@ -12,11 +12,11 @@
             <a href="https://www.youtube.com/user/morningmusumechannel" target="_blank" class="youtube">Youtube</a>
           </div>
         </div>
-        <div class="members">
+        <div class="members fixed">
           <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
         </div>
       </div>
-      <div class="group">
+      <div class="group b">
         <div class="team">
           <div class="group-name">
             <h1>アンジュルム</h1>
@@ -31,7 +31,7 @@
           <Member v-for="(member, i) in angerme" :key="i" :item="member"></Member>
         </div>
       </div>
-      <div class="group">
+      <div class="group c">
         <div class="team">
           <div class="group-name">
             <h1>Juice=Juice</h1>
@@ -46,7 +46,7 @@
           <Member v-for="(member, i) in juicejuice" :key="i" :item="member"></Member>
         </div>
       </div>
-      <div class="group">
+      <div class="group d">
         <div class="team">
           <div class="group-name">
             <h1>カントリーガールズ</h1>
@@ -63,7 +63,7 @@
           <Member v-for="(member, i) in countryGirls" :key="i" :item="member"></Member>
         </div>
       </div>
-      <div class="group">
+      <div class="group e">
         <div class="team">
           <div class="group-name">
             <h1>こぶしファクトリー</h1>
@@ -80,7 +80,7 @@
           <Member v-for="(member, i) in kobusiFactory" :key="i" :item="member"></Member>
         </div>
       </div>
-      <div class="group">
+      <div class="group f">
         <div class="team">
           <div class="group-name">
             <h1>つばきファクトリー</h1>
@@ -97,27 +97,35 @@
           <Member v-for="(member, i) in tsubakiFactory" :key="i" :item="member"></Member>
         </div>
       </div>
-      <div class="group">
+      <div class="group g">
         <div class="team">
           <div class="group-name">
             <h1>CHIKA#TETSU</h1>
+          </div>
+          <div class="group-sns">
+            <a href="https://twitter.com/BEYOOOOONDS_" target="_blank" class="twitter">Twitter</a>
+            <a href="https://www.instagram.com/beyooooonds_official/" target="_blank" class="instagram">Instagram</a>
           </div>
         </div>
         <div class="members">
           <Member v-for="(member, i) in chicatetsu" :key="i" :item="member"></Member>
         </div>
       </div>
-      <div class="group">
+      <div class="group h">
         <div class="team">
           <div class="group-name">
             <h1>雨ノ森川海</h1>
+          </div>
+          <div class="group-sns">
+            <a href="https://twitter.com/BEYOOOOONDS_" target="_blank" class="twitter">Twitter</a>
+            <a href="https://www.instagram.com/beyooooonds_official/" target="_blank" class="instagram">Instagram</a>
           </div>
         </div>
         <div class="members">
           <Member v-for="(member, i) in amenomorikawaumi" :key="i" :item="member"></Member>
         </div>
       </div>
-      <div class="group">
+      <div class="group i">
         <div class="team">
           <div class="group-name">
             <h1>BEYOOOOONDS</h1>
@@ -156,7 +164,38 @@ export default {
       amenomorikawaumi: 'members/amenomorikawaumi'
     })
   },
-  mounted() {}
+  mounted() {
+    let t = null
+    window.addEventListener('scroll', () => {
+      clearTimeout(t)
+      t = setTimeout(() => {
+        const groupIds = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
+        for (let i = 0; i < groupIds.length; i++) {
+          const elm = document.querySelector(`.group.${groupIds[i]} .team`)
+          const groupBar = elm.getBoundingClientRect()
+          if (groupBar) {
+            let membersHeight = -83
+            for (let j = 0; j < i; j++) {
+              membersHeight += document.querySelector(`.group.${groupIds[j]} .members`).clientHeight
+            }
+            if (window.scrollY > membersHeight) {
+              document.querySelector(`.group.${groupIds[i]} .team`).classList.add('fixed')
+            } else {
+              if (groupIds[i] === 'a') return
+              document.querySelector(`.group.${groupIds[i]} .team`).classList.remove('fixed')
+            }
+
+            // const groupHeight = document.querySelector(`.group.${groupIds[i]}`).clientHeight - 49
+            // if (groupBar.top < 0 && groupBar.top > -1 * groupHeight) {
+            //   elm.classList.add('fixed')
+            // } else {
+            //   elm.classList.remove('fixed')
+            // }
+          }
+        }
+      }, 0)
+    })
+  }
 }
 </script>
 
@@ -165,7 +204,13 @@ export default {
   .groups {
     .group {
       .team {
+        &.fixed {
+          position: fixed;
+          width: 100%;
+          top: 0;
+        }
         .group-name {
+          height: 49px;
           background-color: rgb(47, 117, 188);
           padding: 5px;
           h1 {
@@ -200,6 +245,9 @@ export default {
       }
       .members {
         width: 100%;
+        &.fixed {
+          padding-top: 83px;
+        }
       }
     }
   }

@@ -1,8 +1,16 @@
 <template>
   <div>
     <nuxt />
+    <NavigationTabBar></NavigationTabBar>
   </div>
 </template>
+
+<script>
+import NavigationTabBar from '@/components/NavigationTabBar.vue'
+export default {
+  components: { NavigationTabBar }
+}
+</script>
 
 <style>
 html {
@@ -39,5 +47,8 @@ a {
     black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px, black 1px 1px 0px, black -1px 1px 0px,
     black 1px -1px 0px, black -1px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px,
     black -1px -1px 0px, black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+}
+.container {
+  padding-bottom: 51px;
 }
 </style>
