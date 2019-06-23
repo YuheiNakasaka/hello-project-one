@@ -9,6 +9,7 @@
     "precommit": "yarn run lint",
     "dev": "nuxt",
     "build": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "build-dev": "nuxt build",
     "start": "nuxt start",
     "generate": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
