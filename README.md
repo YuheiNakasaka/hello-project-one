@@ -1,5 +1,7 @@
 # hello-project-one
 
+![https://travis-ci.org/YuheiNakasaka/hello-project-one.svg?branch=master](https://travis-ci.org/YuheiNakasaka/hello-project-one.svg?branch=master)
+
 ## Build Setup
 
 ``` bash
