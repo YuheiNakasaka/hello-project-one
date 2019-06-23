@@ -8,6 +8,7 @@ const routerBase =
       }
     : {}
 const SITE_NAME = 'ハロプロワン'
+const description = '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
 export default {
   mode: 'spa',
   /*
@@ -18,21 +19,16 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
-      },
-      { hid: 'og:site_name', name: 'og:site_name', content: SITE_NAME },
+      { hid: 'description', name: 'description', content: description },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@razokulover' },
+      { hid: 'twitter:title', name: 'twitter:title', content: SITE_NAME },
+      { hid: 'twitter:image', name: 'twitter:image', content: `${baseAssetsDir}logo.png` },
+      { hid: 'twitter:description', name: 'twitter:description', content: description },
+      { hid: 'og:site_name', name: 'og:site_name', content: SITE_NAME },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:title', name: 'og:title', content: SITE_NAME },
-      {
-        hid: 'og:description',
-        name: 'og:description',
-        content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
-      },
+      { hid: 'og:description', name: 'og:description', content: description },
       { hid: 'og:image', name: 'og:image', content: `${baseAssetsDir}logo.png` },
       { hid: 'og:url', name: 'og:url', content: 'https://yuheinakasaka.github.io/hello-project-one/' },
       { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: SITE_NAME },
