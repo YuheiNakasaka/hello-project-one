@@ -155,7 +155,7 @@ export default {
 <style lang="scss" scoped>
 .container {
   .groups {
-    padding-top: 50px;
+    padding-top: 40px;
     .group {
       z-index: 1;
       .team {

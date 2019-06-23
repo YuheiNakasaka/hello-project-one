@@ -1203,6 +1203,26 @@ export const state = () => ({
           link: 'javascript:void(0)'
         }
       ]
+    },
+    // OG
+    {
+      name: '中澤裕子',
+      group: 'og',
+      yomi: 'なかざわゆうこ',
+      color: '#ffffff',
+      profile: 'http://www.up-front-create.com/yuko_nakazawa/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/nakazawa-yuko/'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
     }
   ]
 })
@@ -1251,6 +1271,11 @@ export const getters = {
   amenomorikawaumi(state) {
     return state.items.filter(item => {
       return item.group === 'amenomorikawaumi'
+    })
+  },
+  ogMembers(state) {
+    return state.items.filter(item => {
+      return item.group === 'og'
     })
   }
 }

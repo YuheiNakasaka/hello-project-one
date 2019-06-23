@@ -54,7 +54,7 @@ export default {
     }
   }
   .groups {
-    padding-top: 50px;
+    padding-top: 40px;
     .group {
       .members {
         width: 100%;

@@ -87,7 +87,7 @@ export default {
         font-size: 24px;
         color: #bfbfbf;
         &.active {
-          color: #2f75bc;
+          color: rgb(46, 167, 128);
         }
       }
     }

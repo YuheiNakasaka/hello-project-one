@@ -1,7 +1,15 @@
 <template>
   <div class="container">
     <Header :title="`ホーム`"></Header>
-    <div class="groups">
+    <div class="subtabs">
+      <div class="subtab" :class="activeSubtab === 0 ? 'on' : ''" @click="onSubtab(0)">
+        <span>現役</span>
+      </div>
+      <div class="subtab" :class="activeSubtab === 1 ? 'on' : ''" @click="onSubtab(1)">
+        <span>OG</span>
+      </div>
+    </div>
+    <div v-if="activeSubtab === 0" class="groups actives">
       <div class="group a">
         <div class="team">
           <div class="group-name">
@@ -141,6 +149,18 @@
         </div>
       </div>
     </div>
+    <div v-else class="groups ogs">
+      <div class="group ">
+        <div class="team">
+          <div class="group-name">
+            <h1>OGメンバー</h1>
+          </div>
+        </div>
+        <div class="members">
+          <Member v-for="(member, i) in ogMembers" :key="i" :item="member"></Member>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -151,7 +171,9 @@ import { mapGetters } from 'vuex'
 export default {
   components: { Header, Member },
   data: function() {
-    return {}
+    return {
+      activeSubtab: 0
+    }
   },
   computed: {
     ...mapGetters({
@@ -163,17 +185,40 @@ export default {
       countryGirls: 'members/countryGirls',
       beyooooonds: 'members/beyooooonds',
       chicatetsu: 'members/chicatetsu',
-      amenomorikawaumi: 'members/amenomorikawaumi'
+      amenomorikawaumi: 'members/amenomorikawaumi',
+      ogMembers: 'members/ogMembers'
     })
   },
-  mounted() {}
+  mounted() {},
+  methods: {
+    onSubtab(tab) {
+      this.activeSubtab = tab
+    }
+  }
 }
 </script>
 
 <style scoped lang="scss">
 .container {
+  .subtabs {
+    width: 100%;
+    margin-top: 40px;
+    height: 35px;
+    line-height: 35px;
+    display: flex;
+    background-color: #fff;
+    .subtab {
+      width: 50%;
+      text-align: center;
+      color: #bbb;
+      letter-spacing: 4px;
+      &.on {
+        font-weight: bold;
+        color: rgb(46, 167, 128);
+      }
+    }
+  }
   .groups {
-    padding-top: 50px;
     .group {
       z-index: 1;
       .team {
