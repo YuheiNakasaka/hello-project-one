@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <div class="header-item">
+    <div class="header-item" @click="reload">
       <span>{{ title }}</span>
     </div>
   </div>
@@ -31,6 +31,11 @@ export default {
       }
       prevPos = currentPos
     })
+  },
+  methods: {
+    reload() {
+      window.location.reload()
+    }
   }
 }
 </script>

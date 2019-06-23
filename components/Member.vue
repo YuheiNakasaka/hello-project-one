@@ -87,8 +87,12 @@ export default {
     }
     .heart-btn {
       position: absolute;
-      top: 21px;
-      left: 5px;
+      top: 0;
+      width: 45px;
+      height: 68px;
+      padding: 0 0 0 5px;
+      line-height: 68px;
+      z-index: 100;
       cursor: pointer;
       i {
         font-size: 24px;
