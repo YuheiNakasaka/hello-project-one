@@ -135,9 +135,9 @@ export const state = () => ({
           link: 'https://ameblo.jp/mm-12ki/theme-10086725508.html'
         },
         {
-          name: '-',
+          name: 'Instagram',
           class: 'instagram',
-          link: 'javascript:void(0)'
+          link: 'https://www.instagram.com/maria_makino.official/'
         }
       ]
     },
