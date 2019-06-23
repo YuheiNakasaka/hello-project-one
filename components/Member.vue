@@ -47,13 +47,12 @@ export default {
       columnHeight: 68
     }
   },
-  created() {
-    const columnCount = this.item.sns.length <= 2 ? 2 : this.item.sns.length
-    this.columnHeight = columnCount * 34
-  },
   mounted() {
     const windowWidth = window.innerWidth || document.documentElement.clientWidth || 0
     this.memberNameWidth = windowWidth * 0.67
+
+    const columnCount = this.item.sns.length <= 2 ? 2 : this.item.sns.length
+    this.columnHeight = columnCount * 34
 
     // vue-persistedstateのheart復帰のタイミングがよくわからん
     setTimeout(() => {
@@ -133,6 +132,24 @@ export default {
       }
       &.ameba {
         background-color: #2d8b3b;
+      }
+      &.youtube {
+        background-color: #ff0000;
+      }
+      &.blog {
+        background-color: rgb(241, 209, 212);
+      }
+      &.wear {
+        background-color: #f5f5f5;
+      }
+      &.twitter {
+        background-color: #00aced;
+      }
+      &.facebook {
+        background-color: #3b5998;
+      }
+      &.showroom {
+        background-color: #000;
       }
     }
   }

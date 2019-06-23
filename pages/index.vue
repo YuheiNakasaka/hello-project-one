@@ -157,7 +157,7 @@
           </div>
         </div>
         <div class="members">
-          <Member v-for="(member, i) in ogMembers" :key="i" :item="member"></Member>
+          <Member v-for="(member, i) in ogMembers" :key="`${i}_${member.link}`" :item="member"></Member>
         </div>
       </div>
     </div>

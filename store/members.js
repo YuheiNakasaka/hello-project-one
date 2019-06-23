@@ -341,6 +341,11 @@ export const state = () => ({
           name: '-',
           class: 'instagram',
           link: 'javascript:void(0)'
+        },
+        {
+          name: 'WEAR',
+          class: 'wear',
+          link: 'https://wear.jp/rinakatsuta/'
         }
       ]
     },
@@ -1209,7 +1214,7 @@ export const state = () => ({
       name: '中澤裕子',
       group: 'og',
       yomi: 'なかざわゆうこ',
-      color: '#ffffff',
+      color: '#004E2D',
       profile: 'http://www.up-front-create.com/yuko_nakazawa/',
       sns: [
         {
@@ -1221,6 +1226,677 @@ export const state = () => ({
           name: '-',
           class: 'instagram',
           link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '飯田圭織',
+      group: 'og',
+      yomi: 'いいだかおり',
+      color: '#1464b3',
+      profile: 'http://www.up-front-create.com/kaori_iida/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/kaori-iida/'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '安倍なつみ',
+      group: 'og',
+      yomi: 'あべなつみ',
+      color: '#ff0000',
+      profile: 'http://www.abe-natsumi.com/',
+      sns: [
+        {
+          name: 'BLOG',
+          class: 'blog',
+          link: 'http://www.abe-natsumi.com/blog/'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '保田圭',
+      group: 'og',
+      yomi: 'やすだけい',
+      color: '#ff8dd7',
+      profile: 'http://www.jp-r.co.jp/kei_yasuda/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/kei-yasuda/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/keiyasuda1206/'
+        }
+      ]
+    },
+    {
+      name: '矢口真里',
+      group: 'og',
+      yomi: 'やぐちまり',
+      color: '#c2a5e6',
+      profile: 'http://www.up-front-create.com/mari_yaguchi/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/mari-yaguchi/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/mariyaguchi_official/'
+        }
+      ]
+    },
+    {
+      name: '石川梨華',
+      group: 'og',
+      yomi: 'いしかわりか',
+      color: '#FF1493',
+      profile: 'http://www.jp-r.co.jp/rika_ishikawa/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/ishikawa-rika-official/'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '辻希美',
+      group: 'og',
+      yomi: 'つじのぞみ',
+      color: '#f5f5f5',
+      profile: 'http://www.up-front-create.com/nozomi_tsuji/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tsuji-nozomi/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/tsujinozomi_official/'
+        },
+        {
+          name: 'Youtube',
+          class: 'youtube',
+          link: 'https://www.youtube.com/channel/UCNiurMpWExWgio2lqldycbA'
+        }
+      ]
+    },
+    {
+      name: '高橋愛',
+      group: 'og',
+      yomi: 'たかはしあい',
+      color: '#ffff00',
+      profile: 'http://www.up-front-create.com/ai_takahashi/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'http://ameblo.jp/takahashiai-blog/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/i_am_takahashi/'
+        },
+        {
+          name: 'WEAR',
+          class: 'wear',
+          link: 'https://wear.jp/takahashiai/'
+        },
+        {
+          name: 'Facebook',
+          class: 'facebook',
+          link: 'https://www.facebook.com/Iam.aitakahashi.official/'
+        }
+      ]
+    },
+    {
+      name: '新垣里沙',
+      group: 'og',
+      yomi: 'にいがきりさ',
+      color: '#adff2f',
+      profile: 'http://www.jp-r.co.jp/risa_niigaki/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'http://ameblo.jp/nigaki-risa/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/risa_risa_risadayo/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/risa1020rr'
+        },
+        {
+          name: 'WEAR',
+          class: 'wear',
+          link: 'http://wear.jp/risa1020rr/'
+        }
+      ]
+    },
+    {
+      name: '藤本美貴',
+      group: 'og',
+      yomi: 'ふじもとみき',
+      color: '#ff0000',
+      profile: 'http://www.jp-r.co.jp/miki_fujimoto/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/miki-fujimoto/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/mikittyfujimoto/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/mikitty_staff'
+        }
+      ]
+    },
+    {
+      name: '道重さゆみ',
+      group: 'og',
+      yomi: 'みちしげさゆみ',
+      color: '#ffc0cb',
+      profile: 'http://sayuminglandoll.com/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/sayumimichishige-blog/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/sayumimichishige0713/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/sayumi_info'
+        }
+      ]
+    },
+    {
+      name: '田中れいな',
+      group: 'og',
+      yomi: 'たなかれいな',
+      color: '#00bfff',
+      profile: 'http://www.tanaka-reina.com/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tanakareina-blog/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/tanakareina.lovendor/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/ganbareina11'
+        },
+        {
+          name: 'Facebook',
+          class: 'facebook',
+          link: 'https://www.facebook.com/ReinaTanakaOfficial/'
+        },
+        {
+          name: 'SHOWROOM',
+          class: 'showroom',
+          link: 'https://www.showroom-live.com/Reina_tanaka'
+        },
+        {
+          name: 'WEAR',
+          class: 'wear',
+          link: 'http://wear.jp/tanakareinalovendor/'
+        }
+      ]
+    },
+    {
+      name: '里田まい',
+      group: 'og',
+      yomi: 'さとだまい',
+      color: '#f5f5f5',
+      profile: 'http://www.up-front-create.com/mai_satoda/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'http://ameblo.jp/satodamai/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/maisatoda_official/'
+        }
+      ]
+    },
+    {
+      name: '三好絵梨香',
+      group: 'og',
+      yomi: 'みよしえりか',
+      color: '#f5f5f5',
+      profile: 'https://www.up-front-sapporo.com/miyoshierika',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'http://ameblo.jp/miyoshierika/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/erika.miyoshi/'
+        }
+      ]
+    },
+    {
+      name: '清水佐紀',
+      group: 'og',
+      yomi: 'しみずさき',
+      color: '#ffff00',
+      profile: 'http://www.jp-r.co.jp/saki_shimizu/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/shimizu--saki/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/saki___shimizu/'
+        }
+      ]
+    },
+    {
+      name: '徳永千奈美',
+      group: 'og',
+      yomi: 'とくながちなみ',
+      color: '#ffa500',
+      profile: 'https://ameblo.jp/tokunaga-chinami-blog/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/tokunaga-chinami-blog/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/chinami.tokunaga/'
+        }
+      ]
+    },
+    {
+      name: '須藤茉麻',
+      group: 'og',
+      yomi: 'すどうまあさsa',
+      color: '#0000ff',
+      profile: 'http://www.jp-r.co.jp/maasa_sudou/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'http://ameblo.jp/sudou-maasa-blog/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/maasa_0703'
+        }
+      ]
+    },
+    {
+      name: '夏焼雅',
+      group: 'og',
+      yomi: 'なつやきみやび',
+      color: '#9370db',
+      profile: 'http://www.pinkcres.com/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/natsuyaki-miyabi-blog/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/miyaaa0825/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/miyaaa0825pink'
+        },
+        {
+          name: 'WEAR',
+          class: 'wear',
+          link: 'http://wear.jp/19920825peace330/'
+        }
+      ]
+    },
+    {
+      name: '熊井友理奈',
+      group: 'og',
+      yomi: 'くまいゆりな',
+      color: '#008000',
+      profile: 'http://www.jp-r.co.jp/yurina_kumai/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/kumai-yurina-blog/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/kumai_yurina/'
+        }
+      ]
+    },
+    {
+      name: '菅谷梨沙子',
+      group: 'og',
+      yomi: 'すがやりさこ',
+      color: '#ff0000',
+      profile: 'https://ameblo.jp/sugaya-risako-blog/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/sugaya-risako-blog/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/risako_sugaya/'
+        }
+      ]
+    },
+    {
+      name: '矢島舞美',
+      group: 'og',
+      yomi: 'やじままいみ',
+      color: '#ff0000',
+      profile: 'http://www.jp-r.co.jp/maimi_yajima/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/yajima-maimi-official/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/maimiyajima_official_uf/'
+        }
+      ]
+    },
+    {
+      name: '中島早貴',
+      group: 'og',
+      yomi: 'なかじまさき',
+      color: '#87ceeb',
+      profile: 'http://www.jp-r.co.jp/saki_nakajima/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/nakajima-saki-official/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/saki__nakajima__uf/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/saki_nakajima__'
+        }
+      ]
+    },
+    {
+      name: '鈴木愛理',
+      group: 'og',
+      yomi: 'すずきあいり',
+      color: '#ffb6c1',
+      profile: 'https://www.airisuzuki-officialweb.com/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/airisuzuki-officialblog'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/airisuzuki_official_uf/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/airimania'
+        },
+        {
+          name: 'Youtube',
+          class: 'youtube',
+          link: 'https://www.youtube.com/c/airisuzukich/'
+        },
+        {
+          name: 'Facebook',
+          class: 'facebook',
+          link: 'https://www.facebook.com/AiriSuzukiOfficial'
+        }
+      ]
+    },
+    {
+      name: '岡井千聖',
+      group: 'og',
+      yomi: 'おかいちさと',
+      color: '#32cd32',
+      profile: 'https://ameblo.jp/chisato-okai-official/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/chisato-okai-official/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/chisatookai_official_uf/'
+        }
+      ]
+    },
+    {
+      name: '和田彩花',
+      group: 'og',
+      yomi: 'わだあやか',
+      color: '#ff0000',
+      profile: 'https://ameblo.jp/angerme-ayakawada',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/angerme-ayakawada'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '福田花音',
+      group: 'og',
+      yomi: 'ふくだかのん',
+      color: '#ff1493',
+      profile: 'https://ameblo.jp/kanon-fukuda0312/',
+      sns: [
+        {
+          name: 'BLOG',
+          class: 'blog',
+          link: 'https://pressblog.me/users/kanon_fukuda'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/kanon_fukuda/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/kanonfukuda'
+        },
+        {
+          name: 'Youtube',
+          class: 'youtube',
+          link: 'https://www.youtube.com/marochannel'
+        }
+      ]
+    },
+    {
+      name: '真野恵里菜',
+      group: 'og',
+      yomi: 'まのえりな',
+      color: '#FF0000',
+      profile: 'http://www.jp-r.co.jp/erina_mano/',
+      sns: [
+        {
+          name: 'BLOG',
+          class: 'blog',
+          link: 'http://lineblog.me/manoerina/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/erinamano_official/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/erina_mano'
+        }
+      ]
+    },
+    {
+      name: '飯窪春菜',
+      group: 'og',
+      yomi: 'いいくぼはるな',
+      color: '#e6ba5f',
+      profile: 'http://www.jp-r.co.jp/haruna_iikubo/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/iikuboharuna-official/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/harunaiikubo_official/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/haruna__iikubo'
+        },
+        {
+          name: 'Youtube',
+          class: 'youtube',
+          link: 'https://www.youtube.com/channel/UCn75BLMKpV8w0uH8JcfilWQ'
+        },
+        {
+          name: 'WEAR',
+          class: 'wear',
+          link: 'https://wear.jp/iikuboharuna/'
+        }
+      ]
+    },
+    {
+      name: '工藤遥',
+      group: 'og',
+      yomi: 'くどうはるか',
+      color: '#ffa500',
+      profile: 'http://www.jp-r.co.jp/haruka_kudou/',
+      sns: [
+        {
+          name: 'Ameba',
+          class: 'ameba',
+          link: 'https://ameblo.jp/kudo--haruka/'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/haruka_kudo.official/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/Haruka_kudo1027'
+        }
+      ]
+    },
+    {
+      name: '宮崎由加',
+      group: 'og',
+      yomi: 'みやざきゆか',
+      color: '#ffc0cb',
+      profile: 'https://www.instagram.com/yuka_miyazaki.official/',
+      sns: [
+        {
+          name: '-',
+          class: 'ameba',
+          link: 'javascript:void(0)'
+        },
+        {
+          name: 'Instagram',
+          class: 'instagram',
+          link: 'https://www.instagram.com/yuka_miyazaki.official/'
         }
       ]
     }
