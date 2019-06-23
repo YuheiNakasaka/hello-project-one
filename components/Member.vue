@@ -1,13 +1,23 @@
 <template>
-  <div class="member">
+  <div class="member" :style="`height: ${columnHeight}px;`">
     <div class="member-name" :style="'background-color: ' + item.color + '; width: ' + memberNameWidth + 'px;'">
-      <a :href="item.profile" target="_blank">
+      <a :href="item.profile" target="_blank" :style="`height: ${columnHeight}px; line-height: ${columnHeight}px;`">
         <span>{{ item.name }}</span>
       </a>
-      <div v-if="heartActive" class="heart-btn" @click="removeHeart">
+      <div
+        v-if="heartActive"
+        class="heart-btn"
+        :style="`height: ${columnHeight}px; line-height: ${columnHeight}px;`"
+        @click="removeHeart"
+      >
         <i class="fa fa-heart on" aria-hidden="true"></i>
       </div>
-      <div v-else class="heart-btn" @click="addHeart">
+      <div
+        v-else
+        class="heart-btn"
+        :style="`height: ${columnHeight}px; line-height: ${columnHeight}px;`"
+        @click="addHeart"
+      >
         <i class="fa fa-heart" aria-hidden="true"></i>
       </div>
     </div>
@@ -33,8 +43,13 @@ export default {
   data() {
     return {
       memberNameWidth: 0,
-      heartActive: false
+      heartActive: false,
+      columnHeight: 68
     }
+  },
+  created() {
+    const columnCount = this.item.sns.length <= 2 ? 2 : this.item.sns.length
+    this.columnHeight = columnCount * 34
   },
   mounted() {
     const windowWidth = window.innerWidth || document.documentElement.clientWidth || 0
@@ -70,16 +85,15 @@ export default {
 
 <style lang="scss" scoped>
 .member {
-  height: 68px;
   display: flex;
   flex-direction: row;
   align-items: stretch;
+  border-bottom: 1px solid #eee;
   .member-name {
     position: relative;
     a {
-      height: 68px;
       width: 100%;
-      padding: 15px 0;
+      padding: 0;
       text-align: center;
       font-size: 18pt;
       color: #fff;
@@ -89,9 +103,7 @@ export default {
       position: absolute;
       top: 0;
       width: 45px;
-      height: 68px;
       padding: 0 0 0 5px;
-      line-height: 68px;
       z-index: 100;
       cursor: pointer;
       i {

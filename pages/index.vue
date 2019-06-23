@@ -178,6 +178,7 @@ export default {
       z-index: 1;
       .team {
         z-index: 10000;
+        border-bottom: 1px solid #eee;
         &.fixed {
           position: fixed;
           width: 100%;
