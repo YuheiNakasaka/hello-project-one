@@ -23,7 +23,11 @@ export default {
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@razokulover' },
       { hid: 'twitter:title', name: 'twitter:title', content: SITE_NAME },
-      { hid: 'twitter:image', name: 'twitter:image', content: `${baseAssetsDir}logo.png` },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: `https://yuheinakasaka.github.io${baseAssetsDir}logo.png`
+      },
       { hid: 'twitter:description', name: 'twitter:description', content: description },
       { hid: 'og:site_name', name: 'og:site_name', content: SITE_NAME },
       { hid: 'og:type', name: 'og:type', content: 'website' },
