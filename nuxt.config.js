@@ -1,3 +1,4 @@
+const baseAssetsDir = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/hello-project-one/' : ''
 const routerBase =
   process.env.DEPLOY_ENV === 'GH_PAGES'
     ? {
@@ -37,17 +38,21 @@ export default {
       { hid: 'application-name', name: 'application-name', content: SITE_NAME }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: `/apple-touch-icon.png` },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `/favicon-32x32.png` },
-      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `/favicon-16x16.png` },
-      { rel: 'mask-icon', href: `/safari-pinned-tab.svg`, color: '#000000' },
-      { rel: 'shortcut icon', href: `/favicon.ico` },
+      { rel: 'icon', type: 'image/x-icon', href: `${baseAssetsDir}/favicon.ico` },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: `${baseAssetsDir}/apple-touch-icon.png` },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${baseAssetsDir}/favicon-32x32.png` },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${baseAssetsDir}/favicon-16x16.png` },
+      { rel: 'shortcut icon', href: `${baseAssetsDir}/favicon.ico` },
       {
         rel: 'stylesheet',
         href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
       }
     ]
+  },
+  manifest: {
+    name: SITE_NAME,
+    short_name: SITE_NAME,
+    lang: 'ja'
   },
   /*
    ** Customize the progress-bar color
