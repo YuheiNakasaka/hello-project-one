@@ -24,6 +24,7 @@ export default {
         content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
       },
       { hid: 'og:site_name', name: 'og:site_name', content: SITE_NAME },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@razokulover' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:title', name: 'og:title', content: SITE_NAME },
@@ -32,20 +33,20 @@ export default {
         name: 'og:description',
         content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
       },
-      { hid: 'og:image', name: 'og:image', content: `${baseAssetsDir}/logo.png` },
+      { hid: 'og:image', name: 'og:image', content: `${baseAssetsDir}logo.png` },
       { hid: 'og:url', name: 'og:url', content: 'https://yuheinakasaka.github.io/hello-project-one/' },
       { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: SITE_NAME },
       { hid: 'application-name', name: 'application-name', content: SITE_NAME }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: `${baseAssetsDir}/favicon.ico` },
-      { rel: 'apple-touch-icon', sizes: '180x180', href: `${baseAssetsDir}/apple-touch-icon.png` },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${baseAssetsDir}/favicon-32x32.png` },
-      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${baseAssetsDir}/favicon-16x16.png` },
-      { rel: 'shortcut icon', href: `${baseAssetsDir}/favicon.ico` },
+      { rel: 'icon', type: 'image/x-icon', href: `${baseAssetsDir}favicon.ico` },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: `${baseAssetsDir}apple-touch-icon.png` },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${baseAssetsDir}favicon-32x32.png` },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${baseAssetsDir}favicon-16x16.png` },
+      { rel: 'shortcut icon', href: `${baseAssetsDir}favicon.ico` },
       {
         rel: 'stylesheet',
-        href: `${baseAssetsDir}/css/font-awesome.min.css`
+        href: `${baseAssetsDir}css/font-awesome.min.css`
       }
     ]
   },
