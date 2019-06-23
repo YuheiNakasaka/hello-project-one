@@ -6,14 +6,14 @@ const routerBase =
         }
       }
     : {}
-
+const SITE_NAME = 'ハロプロワン'
 export default {
   mode: 'spa',
   /*
    ** Headers of the page
    */
   head: {
-    title: 'ハロプロワン' || '',
+    title: SITE_NAME,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,17 +22,19 @@ export default {
         name: 'description',
         content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
       },
-      { hid: 'og:site_name', name: 'og:site_name', content: 'ハロプロワン' },
+      { hid: 'og:site_name', name: 'og:site_name', content: SITE_NAME },
       { hid: 'twitter:site', name: 'twitter:site', content: '@razokulover' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
-      { hid: 'og:title', name: 'og:title', content: 'ハロプロワン' },
+      { hid: 'og:title', name: 'og:title', content: SITE_NAME },
       {
         hid: 'og:description',
         name: 'og:description',
         content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
       },
       { hid: 'og:image', name: 'og:image', content: '' },
-      { hid: 'og:url', name: 'og:url', content: '' }
+      { hid: 'og:url', name: 'og:url', content: '' },
+      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: SITE_NAME },
+      { hid: 'application-name', name: 'application-name', content: SITE_NAME }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
