@@ -32,8 +32,8 @@ export default {
         name: 'og:description',
         content: '「ハロプロワン」はハロー!プロジェクトの各種リンクをまとめたサイトです'
       },
-      { hid: 'og:image', name: 'og:image', content: '' },
-      { hid: 'og:url', name: 'og:url', content: '' },
+      { hid: 'og:image', name: 'og:image', content: `${baseAssetsDir}/logo.png` },
+      { hid: 'og:url', name: 'og:url', content: 'https://yuheinakasaka.github.io/hello-project-one/' },
       { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: SITE_NAME },
       { hid: 'application-name', name: 'application-name', content: SITE_NAME }
     ],
