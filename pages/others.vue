@@ -1,13 +1,14 @@
 <template>
   <div class="container">
+    <Header :title="`その他のリンク`"></Header>
     <div class="groups">
       <div class="group a">
-        <div class="team fixed">
+        <div class="team">
           <div class="group-name">
             <h1>公式情報</h1>
           </div>
         </div>
-        <div class="members fixed">
+        <div class="members">
           <div v-for="(item, i) in officialLinkItems" :key="i" class="member">
             <div class="member-name" :style="`background-color:${colors[i % colors.length]}`">
               <a :href="item.link" target="_blank">
@@ -54,8 +55,10 @@
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
 export default {
   name: 'Others',
+  components: { Header },
   data() {
     return {
       officialLinkItems: [
@@ -145,38 +148,14 @@ export default {
       ]
     }
   },
-  mounted() {
-    let t = null
-    window.addEventListener('scroll', () => {
-      clearTimeout(t)
-      t = setTimeout(() => {
-        const groupIds = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
-        for (let i = 0; i < groupIds.length; i++) {
-          const elm = document.querySelector(`.group.${groupIds[i]} .team`)
-          if (!elm) return
-          const groupBar = elm.getBoundingClientRect()
-          if (groupBar) {
-            let membersHeight = -83
-            for (let j = 0; j < i; j++) {
-              membersHeight += document.querySelector(`.group.${groupIds[j]} .members`).clientHeight
-            }
-            if (window.scrollY > membersHeight) {
-              document.querySelector(`.group.${groupIds[i]} .team`).classList.add('fixed')
-            } else {
-              if (groupIds[i] === 'a') return
-              document.querySelector(`.group.${groupIds[i]} .team`).classList.remove('fixed')
-            }
-          }
-        }
-      }, 0)
-    })
-  }
+  mounted() {}
 }
 </script>
 
 <style lang="scss" scoped>
 .container {
   .groups {
+    padding-top: 50px;
     .group {
       z-index: 1;
       .team {

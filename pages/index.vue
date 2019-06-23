@@ -1,8 +1,9 @@
 <template>
   <div class="container">
+    <Header :title="`ホーム`"></Header>
     <div class="groups">
       <div class="group a">
-        <div class="team fixed">
+        <div class="team">
           <div class="group-name">
             <h1>モーニング娘。</h1>
           </div>
@@ -12,7 +13,7 @@
             <a href="https://www.youtube.com/user/morningmusumechannel" target="_blank" class="youtube">Youtube</a>
           </div>
         </div>
-        <div class="members fixed">
+        <div class="members">
           <Member v-for="(member, i) in morningMusume" :key="i" :item="member"></Member>
         </div>
       </div>
@@ -144,10 +145,11 @@
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
 import Member from '@/components/Member.vue'
 import { mapGetters } from 'vuex'
 export default {
-  components: { Member },
+  components: { Header, Member },
   data: function() {
     return {}
   },
@@ -164,38 +166,14 @@ export default {
       amenomorikawaumi: 'members/amenomorikawaumi'
     })
   },
-  mounted() {
-    let t = null
-    window.addEventListener('scroll', () => {
-      clearTimeout(t)
-      t = setTimeout(() => {
-        const groupIds = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
-        for (let i = 0; i < groupIds.length; i++) {
-          const elm = document.querySelector(`.group.${groupIds[i]} .team`)
-          if (!elm) return
-          const groupBar = elm.getBoundingClientRect()
-          if (groupBar) {
-            let membersHeight = -83
-            for (let j = 0; j < i; j++) {
-              membersHeight += document.querySelector(`.group.${groupIds[j]} .members`).clientHeight
-            }
-            if (window.scrollY > membersHeight) {
-              document.querySelector(`.group.${groupIds[i]} .team`).classList.add('fixed')
-            } else {
-              if (groupIds[i] === 'a') return
-              document.querySelector(`.group.${groupIds[i]} .team`).classList.remove('fixed')
-            }
-          }
-        }
-      }, 0)
-    })
-  }
+  mounted() {}
 }
 </script>
 
 <style scoped lang="scss">
 .container {
   .groups {
+    padding-top: 50px;
     .group {
       z-index: 1;
       .team {

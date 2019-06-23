@@ -1,10 +1,6 @@
 <template>
   <div class="container">
-    <div class="header">
-      <div class="header-title">
-        <h1>お気に入り</h1>
-      </div>
-    </div>
+    <Header :title="`お気に入り`"></Header>
     <div class="groups">
       <div class="group">
         <div class="members">
@@ -16,10 +12,11 @@
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
 import Member from '@/components/Member.vue'
 import { mapGetters } from 'vuex'
 export default {
-  components: { Member },
+  components: { Header, Member },
   data: function() {
     return {}
   },
@@ -52,7 +49,7 @@ export default {
     }
   }
   .groups {
-    padding-top: 49px;
+    padding-top: 50px;
     .group {
       .members {
         width: 100%;
