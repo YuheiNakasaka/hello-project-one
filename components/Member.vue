@@ -88,9 +88,10 @@ export default {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  border-bottom: 1px solid #eee;
   .member-name {
     position: relative;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
     a {
       width: 100%;
       padding: 0;
@@ -126,6 +127,7 @@ export default {
       padding: 7px 0;
       color: #fff;
       font-weight: bold;
+      border-bottom: 1px solid #eee;
       &.instagram {
         background-color: #833ab4;
       }
