@@ -2,6 +2,7 @@ export const state = () => ({
   items: [
     // モーニング娘。
     {
+      id: '1',
       name: '譜久村聖',
       group: 'morningmusume',
       yomi: 'ふくむらみずき',
@@ -21,6 +22,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '2',
       name: '生田衣梨奈',
       group: 'morningmusume',
       yomi: 'いくたえりな',
@@ -40,6 +42,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '3',
       name: '石田亜佑美',
       group: 'morningmusume',
       yomi: 'いしだあゆみ',
@@ -59,7 +62,8 @@ export const state = () => ({
       ]
     },
     {
-      name: '佐藤優樹',
+      id: '4',
+      name: '佐藤優樹!',
       group: 'morningmusume',
       yomi: 'さとうまさき',
       color: '#00b379',
@@ -78,6 +82,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '5',
       name: '小田さくら',
       group: 'morningmusume',
       yomi: 'おださくら',
@@ -97,6 +102,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '6',
       name: '野中美希',
       group: 'morningmusume',
       yomi: 'のなかみき',
@@ -116,6 +122,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '7',
       name: '牧野真莉愛',
       group: 'morningmusume',
       yomi: 'まきのまりあ',
@@ -135,6 +142,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '8',
       name: '羽賀朱音',
       group: 'morningmusume',
       yomi: 'はがあかね',
@@ -154,6 +162,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '9',
       name: '加賀楓',
       group: 'morningmusume',
       yomi: 'かがかえで',
@@ -173,6 +182,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '10',
       name: '横山玲奈',
       group: 'morningmusume',
       yomi: 'よこやまれいな',
@@ -192,6 +202,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '11',
       name: '森戸知沙希',
       group: 'morningmusume',
       yomi: 'もりとちさき',
@@ -211,6 +222,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '12',
       name: '山﨑愛生',
       group: 'morningmusume',
       yomi: 'やまざきめい',
@@ -230,6 +242,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '13',
       name: '北川莉央',
       group: 'morningmusume',
       yomi: 'きたがわりお',
@@ -249,6 +262,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '14',
       name: '岡村ほまれ',
       group: 'morningmusume',
       yomi: 'おかむらほまれ',
@@ -269,6 +283,7 @@ export const state = () => ({
     },
     // アンジュルム
     {
+      id: '15',
       name: '竹内朱莉',
       group: 'angerme',
       yomi: 'たけうちあかり',
@@ -288,6 +303,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '16',
       name: '中西香菜',
       group: 'angerme',
       yomi: 'なかにしかな',
@@ -307,6 +323,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '17',
       name: '川村文乃',
       group: 'angerme',
       yomi: 'かわむらあやの',
@@ -326,6 +343,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '18',
       name: '勝田里奈',
       group: 'angerme',
       yomi: 'かつたりな',
@@ -350,6 +368,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '19',
       name: '室田瑞希',
       group: 'angerme',
       yomi: 'むろたみずき',
@@ -369,6 +388,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '20',
       name: '佐々木莉佳子',
       group: 'angerme',
       yomi: 'ささきりかこ',
@@ -388,6 +408,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '21',
       name: '上國料萌衣',
       group: 'angerme',
       yomi: 'かみこくりょうもえ',
@@ -407,6 +428,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '22',
       name: '笠原桃奈',
       group: 'angerme',
       yomi: 'かさはらももな',
@@ -426,6 +448,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '23',
       name: '船木結',
       group: 'angerme',
       yomi: 'ふなきむすぶ',
@@ -445,6 +468,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '24',
       name: '太田遥香',
       group: 'angerme',
       yomi: 'おおたはるか',
@@ -464,6 +488,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '25',
       name: '伊勢鈴蘭',
       group: 'angerme',
       yomi: 'いせれいら',
@@ -484,6 +509,7 @@ export const state = () => ({
     },
     // Juice=Juice
     {
+      id: '26',
       name: '金澤朋子',
       group: 'juicejuice',
       yomi: 'かなざわともこ',
@@ -503,6 +529,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '27',
       name: '高木紗友希',
       group: 'juicejuice',
       yomi: 'たかぎさゆき',
@@ -522,6 +549,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '28',
       name: '宮本佳林',
       group: 'juicejuice',
       yomi: 'みやもとかりん',
@@ -541,6 +569,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '29',
       name: '植村あかり',
       group: 'juicejuice',
       yomi: 'うえむらあかり',
@@ -560,6 +589,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '30',
       name: '段原瑠々',
       group: 'juicejuice',
       yomi: 'だんばらるる',
@@ -579,6 +609,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '31',
       name: '稲場愛香',
       group: 'juicejuice',
       yomi: 'いなばまなか',
@@ -598,6 +629,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '32',
       name: '工藤由愛',
       group: 'juicejuice',
       yomi: 'くどうゆめ',
@@ -617,6 +649,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '33',
       name: '松永里愛',
       group: 'juicejuice',
       yomi: 'まつながりあい',
@@ -637,6 +670,7 @@ export const state = () => ({
     },
     // こぶしファクトリー
     {
+      id: '34',
       name: '広瀬彩海',
       group: 'kobusifactory',
       yomi: 'ひろせあやか',
@@ -656,6 +690,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '35',
       name: '野村みなみ',
       group: 'kobusifactory',
       yomi: 'のむらみなみ',
@@ -675,6 +710,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '36',
       name: '浜浦彩乃',
       group: 'kobusifactory',
       yomi: 'はまうらあやの',
@@ -694,6 +730,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '37',
       name: '和田桜子',
       group: 'kobusifactory',
       yomi: 'わださくらこ',
@@ -713,6 +750,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '38',
       name: '井上玲音',
       group: 'kobusifactory',
       yomi: 'いのうえれい',
@@ -733,6 +771,7 @@ export const state = () => ({
     },
     // つばき
     {
+      id: '39',
       name: '山岸理子',
       group: 'tsubakifactory',
       yomi: 'やまぎしりこ',
@@ -752,6 +791,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '40',
       name: '小片リサ',
       group: 'tsubakifactory',
       yomi: 'おがたりさ',
@@ -771,6 +811,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '41',
       name: '新沼希空',
       group: 'tsubakifactory',
       yomi: 'にいぬまきそら',
@@ -790,6 +831,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '42',
       name: '谷本安美',
       group: 'tsubakifactory',
       yomi: 'たにもとあみ',
@@ -809,6 +851,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '43',
       name: '岸本ゆめの',
       group: 'tsubakifactory',
       yomi: 'きしもとゆめの',
@@ -828,6 +871,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '44',
       name: '浅倉樹々',
       group: 'tsubakifactory',
       yomi: 'あさくらきき',
@@ -847,6 +891,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '45',
       name: '小野瑞歩',
       group: 'tsubakifactory',
       yomi: 'おのみずほ',
@@ -866,6 +911,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '46',
       name: '小野田紗栞',
       group: 'tsubakifactory',
       yomi: 'おのださおり',
@@ -885,6 +931,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '47',
       name: '秋山眞緒',
       group: 'tsubakifactory',
       yomi: 'あきやままお',
@@ -905,6 +952,7 @@ export const state = () => ({
     },
     // カントリー
     {
+      id: '48',
       name: '山木梨沙',
       group: 'countrygirls',
       yomi: 'やまきりさ',
@@ -924,6 +972,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '49',
       name: '森戸知沙希',
       group: 'countrygirls',
       yomi: 'もりとちさき',
@@ -943,6 +992,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '50',
       name: '小関舞',
       group: 'countrygirls',
       yomi: 'おぜきまい',
@@ -962,6 +1012,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '51',
       name: '船木結',
       group: 'countrygirls',
       yomi: 'ふなきむすぶ',
@@ -982,6 +1033,7 @@ export const state = () => ({
     },
     // beyooooonds
     {
+      id: '52',
       name: '平井美葉',
       group: 'beyooooonds',
       yomi: 'ひらいみよ',
@@ -1001,6 +1053,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '53',
       name: '小林萌花',
       group: 'beyooooonds',
       yomi: 'こばやしほのか',
@@ -1020,6 +1073,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '54',
       name: '里吉うたの',
       group: 'beyooooonds',
       yomi: 'さとよしうたの',
@@ -1039,6 +1093,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '55',
       name: '一岡伶奈',
       group: 'chicatetsu',
       yomi: 'いちおかれいな',
@@ -1058,6 +1113,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '56',
       name: '島倉りか',
       group: 'chicatetsu',
       yomi: 'しまくらりか',
@@ -1077,6 +1133,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '57',
       name: '西田汐里',
       group: 'chicatetsu',
       yomi: 'にしだしおり',
@@ -1096,6 +1153,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '58',
       name: '江口紗耶',
       group: 'chicatetsu',
       yomi: 'えぐちさや',
@@ -1115,6 +1173,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '59',
       name: '高瀬くるみ',
       group: 'amenomorikawaumi',
       yomi: 'たかせくるみ',
@@ -1134,6 +1193,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '60',
       name: '前田こころ',
       group: 'amenomorikawaumi',
       yomi: 'まえだこころ',
@@ -1153,6 +1213,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '61',
       name: '山﨑夢羽',
       group: 'amenomorikawaumi',
       yomi: 'やまざきゆはね',
@@ -1172,6 +1233,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '62',
       name: '岡村美波',
       group: 'amenomorikawaumi',
       yomi: 'おかむらみなみ',
@@ -1191,6 +1253,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '63',
       name: '清野桃々姫',
       group: 'amenomorikawaumi',
       yomi: 'きよのももひめ',
@@ -1211,6 +1274,7 @@ export const state = () => ({
     },
     // OG
     {
+      id: '64',
       name: '中澤裕子',
       group: 'og',
       yomi: 'なかざわゆうこ',
@@ -1230,6 +1294,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '65',
       name: '飯田圭織',
       group: 'og',
       yomi: 'いいだかおり',
@@ -1249,6 +1314,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '66',
       name: '安倍なつみ',
       group: 'og',
       yomi: 'あべなつみ',
@@ -1268,6 +1334,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '67',
       name: '保田圭',
       group: 'og',
       yomi: 'やすだけい',
@@ -1287,6 +1354,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '68',
       name: '矢口真里',
       group: 'og',
       yomi: 'やぐちまり',
@@ -1306,6 +1374,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '69',
       name: '石川梨華',
       group: 'og',
       yomi: 'いしかわりか',
@@ -1325,6 +1394,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '70',
       name: '辻希美',
       group: 'og',
       yomi: 'つじのぞみ',
@@ -1349,6 +1419,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '71',
       name: '高橋愛',
       group: 'og',
       yomi: 'たかはしあい',
@@ -1378,6 +1449,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '72',
       name: '新垣里沙',
       group: 'og',
       yomi: 'にいがきりさ',
@@ -1407,6 +1479,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '73',
       name: '藤本美貴',
       group: 'og',
       yomi: 'ふじもとみき',
@@ -1431,6 +1504,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '74',
       name: '道重さゆみ',
       group: 'og',
       yomi: 'みちしげさゆみ',
@@ -1455,6 +1529,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '75',
       name: '田中れいな',
       group: 'og',
       yomi: 'たなかれいな',
@@ -1494,6 +1569,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '76',
       name: '里田まい',
       group: 'og',
       yomi: 'さとだまい',
@@ -1513,6 +1589,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '77',
       name: '三好絵梨香',
       group: 'og',
       yomi: 'みよしえりか',
@@ -1532,6 +1609,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '78',
       name: '清水佐紀',
       group: 'og',
       yomi: 'しみずさき',
@@ -1551,6 +1629,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '79',
       name: '徳永千奈美',
       group: 'og',
       yomi: 'とくながちなみ',
@@ -1570,6 +1649,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '80',
       name: '須藤茉麻',
       group: 'og',
       yomi: 'すどうまあさsa',
@@ -1589,6 +1669,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '81',
       name: '夏焼雅',
       group: 'og',
       yomi: 'なつやきみやび',
@@ -1618,6 +1699,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '82',
       name: '熊井友理奈',
       group: 'og',
       yomi: 'くまいゆりな',
@@ -1637,6 +1719,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '83',
       name: '菅谷梨沙子',
       group: 'og',
       yomi: 'すがやりさこ',
@@ -1656,6 +1739,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '84',
       name: '矢島舞美',
       group: 'og',
       yomi: 'やじままいみ',
@@ -1675,6 +1759,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '85',
       name: '中島早貴',
       group: 'og',
       yomi: 'なかじまさき',
@@ -1699,6 +1784,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '86',
       name: '鈴木愛理',
       group: 'og',
       yomi: 'すずきあいり',
@@ -1733,6 +1819,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '87',
       name: '岡井千聖',
       group: 'og',
       yomi: 'おかいちさと',
@@ -1752,6 +1839,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '88',
       name: '和田彩花',
       group: 'og',
       yomi: 'わだあやか',
@@ -1771,6 +1859,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '89',
       name: '福田花音',
       group: 'og',
       yomi: 'ふくだかのん',
@@ -1800,6 +1889,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '90',
       name: '真野恵里菜',
       group: 'og',
       yomi: 'まのえりな',
@@ -1824,6 +1914,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '91',
       name: '飯窪春菜',
       group: 'og',
       yomi: 'いいくぼはるな',
@@ -1858,6 +1949,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '92',
       name: '工藤遥',
       group: 'og',
       yomi: 'くどうはるか',
@@ -1882,6 +1974,7 @@ export const state = () => ({
       ]
     },
     {
+      id: '93',
       name: '宮崎由加',
       group: 'og',
       yomi: 'みやざきゆか',
@@ -1904,6 +1997,9 @@ export const state = () => ({
 })
 
 export const getters = {
+  allMembers(state) {
+    return state.items.map(item => item)
+  },
   morningMusume(state) {
     return state.items.filter(item => {
       return item.group === 'morningmusume'

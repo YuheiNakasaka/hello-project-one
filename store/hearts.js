@@ -4,10 +4,10 @@ export const state = () => ({
 
 export const mutations = {
   ADD_HEARTS(payload, item) {
-    payload.hearts.push(item)
+    payload.hearts.push(item.id)
   },
   REMOVE_HEARTS(payload, item) {
-    payload.hearts.splice(payload.hearts.indexOf(item), 1)
+    payload.hearts.splice(payload.hearts.indexOf(item.id), 1)
   }
 }
 
@@ -18,8 +18,8 @@ export const actions = {
   remove: ({ commit }, item) => {
     commit('REMOVE_HEARTS', item)
   },
-  include: ({ state }, item) => {
-    return state.hearts.filter(heart => heart.name === item.name).length
+  include: ({ state }, itemId) => {
+    return state.hearts.filter(heartId => heartId === itemId).length
   }
 }
 

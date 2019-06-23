@@ -74,7 +74,7 @@ export default {
       this.remove(this.item)
     },
     isHearted() {
-      this.include(this.item).then(resp => {
+      this.include(this.item.id).then(resp => {
         this.heartActive = resp > 0
       })
     }

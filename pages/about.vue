@@ -28,7 +28,9 @@
           </p>
           <br />
           <p>
-            もし修正が必要な項目等あれば<a href="https://twitter.com/razokulover">@razokulover</a
+            動作環境は最新のiOSのSafariとAndroidのChromeでのみ実機テストをしています。古いブラウザなどでは動かない可能性が高いので、そのような場合は最新のブラウザでご利用ください。また、もし修正が必要な項目等あれば<a
+              href="https://twitter.com/razokulover"
+              >@razokulover</a
             >までお気軽にご連絡ください。
           </p>
           <br />

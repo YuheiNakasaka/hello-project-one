@@ -4,7 +4,7 @@
     <div v-if="allHearts.length > 0" class="groups">
       <div class="group">
         <div class="members">
-          <Member v-for="(member, i) in allHearts" :key="`${i}_${member.color}`" :item="member"></Member>
+          <Member v-for="(member, i) in hearts" :key="`${i}_${member.color}`" :item="member"></Member>
         </div>
       </div>
     </div>
@@ -23,14 +23,37 @@ import { mapGetters } from 'vuex'
 export default {
   components: { Header, Member },
   data: function() {
-    return {}
+    return {
+      hearts: []
+    }
   },
   computed: {
     ...mapGetters({
-      allHearts: 'hearts/allHearts'
+      allHearts: 'hearts/allHearts',
+      allMembers: 'members/allMembers'
     })
   },
-  mounted() {}
+  mounted() {
+    this.hearts = this.allHearts.map(heartId => {
+      for (let i = 0; i < this.allMembers.length; i++) {
+        if (this.allMembers[i].id === heartId) {
+          return this.allMembers[i]
+        }
+      }
+    })
+
+    this.$store.subscribe((mutation, state) => {
+      if (mutation.type === 'hearts/ADD_HEARTS' || mutation.type === 'hearts/REMOVE_HEARTS') {
+        this.hearts = this.allHearts.map(heartId => {
+          for (let i = 0; i < this.allMembers.length; i++) {
+            if (this.allMembers[i].id === heartId) {
+              return this.allMembers[i]
+            }
+          }
+        })
+      }
+    })
+  }
 }
 </script>
 
