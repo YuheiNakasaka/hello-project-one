@@ -89,6 +89,7 @@ export default {
       position: absolute;
       top: 21px;
       left: 5px;
+      cursor: pointer;
       i {
         font-size: 24px;
         color: #eee;

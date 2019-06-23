@@ -22,9 +22,11 @@ export default {
     let prevPos = window.pageYOffset !== undefined ? window.pageYOffset : document.documentElement.scrollTop
     window.addEventListener('scroll', () => {
       const currentPos = window.pageYOffset !== undefined ? window.pageYOffset : document.documentElement.scrollTop
-      if (prevPos - currentPos < 0) {
+      if (prevPos - currentPos < 0 && currentPos > 0) {
         document.querySelector('#header').classList.add('hide')
+        document.querySelector('#header').classList.remove('show')
       } else {
+        document.querySelector('#header').classList.add('show')
         document.querySelector('#header').classList.remove('hide')
       }
       prevPos = currentPos
@@ -34,6 +36,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@keyframes slideInUp {
+  0% {
+    visibility: visible;
+    transform: translateZ(0);
+  }
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+@keyframes slideInDown {
+  0% {
+    visibility: visible;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    transform: translateZ(0);
+  }
+}
 #header {
   width: 100%;
   height: 50px;
@@ -43,7 +63,12 @@ export default {
   overflow: visible;
   background-color: #fff;
   border-top: 1px solid #f7f7f7;
+  &.show {
+    animation: slideInDown 0.1s forwards linear;
+    visibility: visible;
+  }
   &.hide {
+    animation: slideInUp 0.1s forwards linear;
     visibility: hidden;
   }
   .header-item {
