@@ -1,12 +1,15 @@
 <template>
   <div id="header">
-    <div class="header-item" @click="reload">
-      <span>{{ title }}</span>
+    <div class="header-item">
+      <span v-if="icon === true" @click="reload"><img :src="iconImage"/></span>
+      <span v-else>{{ title }}</span>
     </div>
   </div>
 </template>
 
 <script>
+import HomeImage from '~/assets/icon.png'
+
 export default {
   name: 'Header',
   props: {
@@ -16,6 +19,18 @@ export default {
       default: () => {
         return ''
       }
+    },
+    icon: {
+      type: Boolean,
+      required: false,
+      default: () => {
+        return false
+      }
+    }
+  },
+  data() {
+    return {
+      iconImage: HomeImage
     }
   },
   mounted() {
@@ -85,6 +100,11 @@ export default {
     line-height: 40px;
     span {
       font-weight: bold;
+      img {
+        width: 35px;
+        padding: 3px;
+        border-radius: 50%;
+      }
     }
   }
 }

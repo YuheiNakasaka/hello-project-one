@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Header :title="`ホーム`"></Header>
+    <Header :title="`ホーム`" :icon="true"></Header>
     <div class="subtabs">
       <div class="subtab" :class="activeSubtab === 0 ? 'on' : ''" @click="onSubtab(0)">
         <span>現役</span>

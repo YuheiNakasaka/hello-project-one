@@ -63,7 +63,7 @@ export const state = () => ({
       group: 'morningmusume',
       yomi: 'さとうまさき',
       color: '#00b379',
-      profile: 'hhttp://www.helloproject.com/morningmusume/profile/masaki_satou/',
+      profile: 'http://www.helloproject.com/morningmusume/profile/masaki_satou/',
       sns: [
         {
           name: 'Ameba',

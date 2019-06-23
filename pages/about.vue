@@ -7,25 +7,54 @@
             <h1>このサイトについて</h1>
           </div>
         </div>
+        <div class="eyecatch">
+          <img :src="iconImage" />
+        </div>
         <div class="article">
           <p>
-            このサイトではHello！ProjectのグループおよびメンバーのプロフィールやSNSへのリンクをまとめています。よくチェックするメンバーは「<span>お気に入り</span>」に追加することでアクセスしやすくなります。他にも公式サイトでよく使われるページへのリンクやYoutubeのチャンネルへのリンクも別途まとめています。追加してほしい項目があれば<a
+            このサイトは<span>ハロプロワン</span>という名前です。Hello！ProjectのグループおよびメンバーとOGのプロフィールやSNSへのリンクをまとめています。よくチェックするメンバーは「<span>お気に入り</span>」に追加することでアクセスしやすくなります。他にも公式サイトでよく使われるページへのリンクやYoutubeのチャンネルへのリンクも別途まとめています。追加してほしい項目があれば<a
               href="https://twitter.com/razokulover"
               >@razokulover</a
             >までご連絡ください。
           </p>
           <p>
-            近年SNSやブログなどインターネット上に多くの情報が提供される一方で、多数のメディアに情報が散らばっているため追いづらい状況になっています。このサイトは各種サービスへのリンクを寄せ集めただけですがどこかの誰かの一助となれば幸いです。
+            近年SNSやブログなどインターネット上に多くの情報が提供される一方で、多数のメディアに情報が散らばっているため追いづらい状況になっています。そういった状況を解決するため、このサイトは各種サービスへのリンクを一箇所に集めることに特化して作られました。構造としては各種リンクを寄せ集めただけですが、どこかの誰かの一助となれば幸いです。
           </p>
           <p>
             もし修正が必要な項目等あれば<a href="https://twitter.com/razokulover">@razokulover</a
             >までお気軽にご連絡ください。
+          </p>
+          <p>
+            またシェアしていただけると開発のモチベーションになります。よろしければお願いします。
+          </p>
+          <p class="sns-area">
+            <a
+              class="twitter-btn"
+              :href="
+                `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                  'https://yuheinakasaka.github.io/hello-project-one/'
+                )}&text=${encodeURIComponent('ハロプロワン')}`
+              "
+              target="_blank"
+              ><i class="fa fa-twitter" aria-hidden="true"></i>ツイートする</a
+            >
           </p>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import HomeImage from '~/assets/icon.png'
+export default {
+  data() {
+    return {
+      iconImage: HomeImage
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .container {
@@ -46,15 +75,35 @@
           }
         }
       }
+      .eyecatch {
+        text-align: center;
+        padding: 10px 10px 0 10px;
+      }
       .article {
-        padding: 10px;
+        padding: 5px 10px 10px 10px;
         p {
           font-size: 16px;
           line-height: 30px;
+          &.sns-area {
+            text-align: center;
+          }
         }
         a {
           display: inline-block;
           text-shadow: none;
+          &.twitter-btn {
+            border-radius: 4px;
+            background-color: #00aced;
+            font-size: 14px;
+            padding: 5px;
+            color: #fff;
+            font-weight: bold;
+            i {
+              padding-right: 5px;
+              font-size: 18px;
+              color: #fff;
+            }
+          }
         }
         span {
           font-weight: bold;

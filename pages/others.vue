@@ -5,6 +5,22 @@
       <div class="group a">
         <div class="team">
           <div class="group-name">
+            <h1>About</h1>
+          </div>
+        </div>
+        <div class="members">
+          <div v-for="(item, i) in aboutItems" :key="i" class="member">
+            <div class="member-name" :style="`background-color:${colors[colors.length - 1]}`">
+              <nuxt-link :to="item.link">
+                <span>{{ item.name }}</span>
+              </nuxt-link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="group b">
+        <div class="team">
+          <div class="group-name">
             <h1>公式情報</h1>
           </div>
         </div>
@@ -18,7 +34,7 @@
           </div>
         </div>
       </div>
-      <div class="group b">
+      <div class="group c">
         <div class="team">
           <div class="group-name">
             <h1>Youtube Channel</h1>
@@ -30,22 +46,6 @@
               <a :href="item.link" target="_blank">
                 <span>{{ item.name }}</span>
               </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="group c">
-        <div class="team">
-          <div class="group-name">
-            <h1>About</h1>
-          </div>
-        </div>
-        <div class="members">
-          <div v-for="(item, i) in aboutItems" :key="i" class="member">
-            <div class="member-name" :style="`background-color:${colors[i % colors.length]}`">
-              <nuxt-link :to="item.link">
-                <span>{{ item.name }}</span>
-              </nuxt-link>
             </div>
           </div>
         </div>
@@ -63,16 +63,16 @@ export default {
     return {
       officialLinkItems: [
         {
-          name: 'ファンクラブ',
-          link: 'https://www.up-fc.jp/helloproject/fanclub_Login.php'
-        },
-        {
           name: '最新ニュース',
           link: 'http://www.helloproject.com/news/'
         },
         {
           name: 'メディア情報',
           link: 'http://www.helloproject.com/media/'
+        },
+        {
+          name: 'ファンクラブ',
+          link: 'https://www.up-fc.jp/helloproject/fanclub_Login.php'
         },
         {
           name: 'ハロプロ研修生',
