@@ -5,7 +5,10 @@ export default ({ store, isHMR }) => {
 
   if (process.client) {
     window.onNuxtReady(nuxt => {
-      createPersistedState()(store)
+      createPersistedState({
+        key: 'hello-project-one-heart',
+        paths: ['hearts.hearts']
+      })(store)
     })
   }
 }

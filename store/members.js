@@ -210,6 +210,63 @@ export const state = () => ({
         }
       ]
     },
+    {
+      name: '山﨑愛生',
+      group: 'morningmusume',
+      yomi: 'やまざきめい',
+      color: '#FFFFFF',
+      profile: 'http://www.helloproject.com/helloprokenshuseihokkaido/profile/mai_yamazaki/',
+      sns: [
+        {
+          name: '-',
+          class: 'ameba',
+          link: 'javascript:void(0)'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '北川莉央',
+      group: 'morningmusume',
+      yomi: 'きたがわりお',
+      color: '#FFFFFF',
+      profile: 'http://www.helloproject.com/news/10573/',
+      sns: [
+        {
+          name: '-',
+          class: 'ameba',
+          link: 'javascript:void(0)'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '岡村ほまれ',
+      group: 'morningmusume',
+      yomi: 'おかむらほまれ',
+      color: '#FFFFFF',
+      profile: 'http://www.helloproject.com/news/10573/',
+      sns: [
+        {
+          name: '-',
+          class: 'ameba',
+          link: 'javascript:void(0)'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
     // アンジュルム
     {
       name: '竹内朱莉',
@@ -527,6 +584,44 @@ export const state = () => ({
           name: 'Ameba',
           class: 'ameba',
           link: 'https://ameblo.jp/juicejuice-official/theme-10106520232.html'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '工藤由愛',
+      group: 'juicejuice',
+      yomi: 'くどうゆめ',
+      color: '#FFF',
+      profile: 'http://www.helloproject.com/news/10541/',
+      sns: [
+        {
+          name: '-',
+          class: 'ameba',
+          link: 'javascript:void(0)'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
+    {
+      name: '松永里愛',
+      group: 'juicejuice',
+      yomi: 'まつながりあい',
+      color: '#FFF',
+      profile: 'http://www.helloproject.com/news/10541/',
+      sns: [
+        {
+          name: '-',
+          class: 'ameba',
+          link: 'javascript:void(0)'
         },
         {
           name: '-',
