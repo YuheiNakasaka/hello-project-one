@@ -507,6 +507,26 @@ export const state = () => ({
         }
       ]
     },
+    {
+      id: '94',
+      name: '橋迫鈴',
+      group: 'angerme',
+      yomi: 'はしさこりん',
+      color: '#FFF',
+      profile: 'http://www.helloproject.com/news/10628/',
+      sns: [
+        {
+          name: '-',
+          class: 'ameba',
+          link: 'javascript:void(0)'
+        },
+        {
+          name: '-',
+          class: 'instagram',
+          link: 'javascript:void(0)'
+        }
+      ]
+    },
     // Juice=Juice
     {
       id: '26',
