@@ -63,7 +63,7 @@ export const state = () => ({
     },
     {
       id: '4',
-      name: '佐藤優樹!',
+      name: '佐藤優樹',
       group: 'morningmusume',
       yomi: 'さとうまさき',
       color: '#00b379',
