@@ -227,7 +227,7 @@ export const state = () => ({
       group: 'morningmusume',
       yomi: 'やまざきめい',
       color: '#63b467',
-      profile: 'http://www.helloproject.com/helloprokenshuseihokkaido/profile/mai_yamazaki/',
+      profile: 'http://www.helloproject.com/morningmusume/profile/mei_yamazaki/',
       sns: [
         {
           name: 'Ameba',
@@ -247,7 +247,7 @@ export const state = () => ({
       group: 'morningmusume',
       yomi: 'きたがわりお',
       color: '#235BC8',
-      profile: 'http://www.helloproject.com/news/10573/',
+      profile: 'http://www.helloproject.com/morningmusume/profile/rio_kitagawa/',
       sns: [
         {
           name: 'Ameba',
@@ -267,7 +267,7 @@ export const state = () => ({
       group: 'morningmusume',
       yomi: 'おかむらほまれ',
       color: '#ffdd00',
-      profile: 'http://www.helloproject.com/news/10573/',
+      profile: 'http://www.helloproject.com/morningmusume/profile/homare_okamura/',
       sns: [
         {
           name: 'Ameba',
@@ -513,7 +513,7 @@ export const state = () => ({
       group: 'angerme',
       yomi: 'はしさこりん',
       color: '#FF0000',
-      profile: 'http://www.helloproject.com/news/10628/',
+      profile: 'http://www.helloproject.com/angerme/profile/rin_hashisako/',
       sns: [
         {
           name: 'Ameba',
@@ -654,7 +654,7 @@ export const state = () => ({
       group: 'juicejuice',
       yomi: 'くどうゆめ',
       color: '#FFB6C1',
-      profile: 'http://www.helloproject.com/news/10541/',
+      profile: 'http://www.helloproject.com/juicejuice/profile/yume_kudou/',
       sns: [
         {
           name: 'Ameba',
@@ -674,7 +674,7 @@ export const state = () => ({
       group: 'juicejuice',
       yomi: 'まつながりあい',
       color: '#1955A6',
-      profile: 'http://www.helloproject.com/news/10541/',
+      profile: 'http://www.helloproject.com/juicejuice/profile/riai_matsunaga/',
       sns: [
         {
           name: 'Ameba',
