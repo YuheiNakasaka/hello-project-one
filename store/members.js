@@ -226,13 +226,13 @@ export const state = () => ({
       name: '山﨑愛生',
       group: 'morningmusume',
       yomi: 'やまざきめい',
-      color: '#FFFFFF',
+      color: '#63b467',
       profile: 'http://www.helloproject.com/helloprokenshuseihokkaido/profile/mai_yamazaki/',
       sns: [
         {
-          name: '-',
+          name: 'Ameba',
           class: 'ameba',
-          link: 'javascript:void(0)'
+          link: 'https://ameblo.jp/morningmusume15ki/theme-10109826705.html'
         },
         {
           name: '-',
@@ -246,13 +246,13 @@ export const state = () => ({
       name: '北川莉央',
       group: 'morningmusume',
       yomi: 'きたがわりお',
-      color: '#FFFFFF',
+      color: '#235BC8',
       profile: 'http://www.helloproject.com/news/10573/',
       sns: [
         {
-          name: '-',
+          name: 'Ameba',
           class: 'ameba',
-          link: 'javascript:void(0)'
+          link: 'https://ameblo.jp/morningmusume15ki/theme-10109826702.html'
         },
         {
           name: '-',
@@ -266,13 +266,13 @@ export const state = () => ({
       name: '岡村ほまれ',
       group: 'morningmusume',
       yomi: 'おかむらほまれ',
-      color: '#FFFFFF',
+      color: '#ffdd00',
       profile: 'http://www.helloproject.com/news/10573/',
       sns: [
         {
-          name: '-',
+          name: 'Ameba',
           class: 'ameba',
-          link: 'javascript:void(0)'
+          link: 'https://ameblo.jp/morningmusume15ki/theme-10109826703.html'
         },
         {
           name: '-',
@@ -512,13 +512,13 @@ export const state = () => ({
       name: '橋迫鈴',
       group: 'angerme',
       yomi: 'はしさこりん',
-      color: '#FFF',
+      color: '#FF0000',
       profile: 'http://www.helloproject.com/news/10628/',
       sns: [
         {
-          name: '-',
+          name: 'Ameba',
           class: 'ameba',
-          link: 'javascript:void(0)'
+          link: 'https://ameblo.jp/angerme-new/theme-10109826701.html'
         },
         {
           name: '-',
@@ -653,13 +653,13 @@ export const state = () => ({
       name: '工藤由愛',
       group: 'juicejuice',
       yomi: 'くどうゆめ',
-      color: '#FFF',
+      color: '#FFB6C1',
       profile: 'http://www.helloproject.com/news/10541/',
       sns: [
         {
-          name: '-',
+          name: 'Ameba',
           class: 'ameba',
-          link: 'javascript:void(0)'
+          link: 'https://ameblo.jp/juicejuice-official/theme-10109826771.html'
         },
         {
           name: '-',
@@ -673,13 +673,13 @@ export const state = () => ({
       name: '松永里愛',
       group: 'juicejuice',
       yomi: 'まつながりあい',
-      color: '#FFF',
+      color: '#1955A6',
       profile: 'http://www.helloproject.com/news/10541/',
       sns: [
         {
-          name: '-',
+          name: 'Ameba',
           class: 'ameba',
-          link: 'javascript:void(0)'
+          link: 'https://ameblo.jp/juicejuice-official/theme-10109826774.html'
         },
         {
           name: '-',
