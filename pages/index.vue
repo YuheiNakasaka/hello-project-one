@@ -142,6 +142,9 @@
           <div class="group-sns">
             <a href="https://twitter.com/BEYOOOOONDS_" target="_blank" class="twitter">Twitter</a>
             <a href="https://www.instagram.com/beyooooonds_official/" target="_blank" class="instagram">Instagram</a>
+            <a href="https://www.youtube.com/channel/UCE5GP4BHm2EJx4xyxBVSLlg" target="_blank" class="youtube"
+              >Youtube</a
+            >
           </div>
         </div>
         <div class="members">
