@@ -1872,9 +1872,19 @@ export const state = () => ({
           link: 'https://ameblo.jp/angerme-ayakawada'
         },
         {
-          name: '-',
+          name: 'Instagram',
           class: 'instagram',
-          link: 'javascript:void(0)'
+          link: 'https://www.instagram.com/ayaka.wada.official/'
+        },
+        {
+          name: 'Twitter',
+          class: 'twitter',
+          link: 'https://twitter.com/ayakawada'
+        },
+        {
+          name: 'Youtube',
+          class: 'youtube',
+          link: 'https://www.youtube.com/channel/UCb1mHLQD9hVjoa4Z8LEwSjw'
         }
       ]
     },
